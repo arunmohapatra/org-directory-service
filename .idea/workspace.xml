@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3309c7aa-d422-499a-b2e5-5897db12cc4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/jvm.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/maven.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employees.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/adapter/out/FileEmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/app/EmployeeHierarchyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/model/DepthViolation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/model/SalaryViolation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/port/out/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/port/service/EmployeeTreeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/service/HierarchyDepthChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/service/SalaryPolicyChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bigcompany/hierarchy/EmployeeHierarchyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bigcompany/hierarchy/adapter/out/FileEmployeeRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bigcompany/hierarchy/domain/port/service/EmployeeTreeBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bigcompany/hierarchy/domain/service/HierarchyDepthCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bigcompany/hierarchy/domain/service/SalaryPolicyCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/app/EmployeeHierarchyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/app/EmployeeHierarchyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/service/HierarchyDepthChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigcompany/hierarchy/domain/service/HierarchyDepthChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,31 +45,103 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/hello/org-directory-service",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="com.bigcompany.hierarchy.app.EmployeeHierarchyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.bigcompany.hierarchy.app.EmployeeHierarchyApp" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bigcompany.hierarchy.domain.service" />
+      <recent name="com.bigcompany.hierarchy.domain.port.service" />
+      <recent name="com.bigcompany.hierarchy.adapter.out" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in org-directory-service">
+    <configuration name="All in org-directory-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org-directory-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HierarchyDepthCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org-directory-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bigcompany.hierarchy.app.*" />
+          <option name="PATTERN" value="com.bigcompany.hierarchy.domain.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.bigcompany.hierarchy.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.bigcompany.hierarchy.domain.service.HierarchyDepthCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HierarchyDepthCheckerTest.testNullSubordinatesHandled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org-directory-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigcompany.hierarchy.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigcompany.hierarchy.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.bigcompany.hierarchy.domain.service.HierarchyDepthCheckerTest" />
+      <option name="METHOD_NAME" value="testNullSubordinatesHandled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalaryPolicyCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org-directory-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigcompany.hierarchy.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigcompany.hierarchy.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.bigcompany.hierarchy.domain.service.SalaryPolicyCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalaryPolicyCheckerTest.checkSalaryPolicy_shouldCheckRecursiveHierarchy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org-directory-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigcompany.hierarchy.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigcompany.hierarchy.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.bigcompany.hierarchy.domain.service.SalaryPolicyCheckerTest" />
+      <option name="METHOD_NAME" value="checkSalaryPolicy_shouldCheckRecursiveHierarchy" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.bigcompany.hierarchy.app.EmployeeHierarchyApp" />
+        <item itemvalue="JUnit.All in org-directory-service" />
+        <item itemvalue="JUnit.SalaryPolicyCheckerTest" />
+        <item itemvalue="JUnit.SalaryPolicyCheckerTest.checkSalaryPolicy_shouldCheckRecursiveHierarchy" />
+        <item itemvalue="JUnit.HierarchyDepthCheckerTest" />
+        <item itemvalue="JUnit.HierarchyDepthCheckerTest.testNullSubordinatesHandled" />
       </list>
     </recent_temporary>
   </component>
@@ -104,5 +166,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bigcompany/hierarchy/domain/service/HierarchyDepthCheckerTest.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bigcompany/hierarchy/domain/service/HierarchyDepthCheckerTest.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

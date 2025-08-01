@@ -20,8 +20,11 @@ public class HierarchyDepthChecker {
         if (depth > maxDepth) {
             violations.add(new DepthViolation(employee, depth - maxDepth));
         }
-        for (Employee subordinate : employee.getSubordinates()) {
-            traverse(subordinate, depth + 1, maxDepth, violations);
+
+        if(employee != null) {
+            for (Employee subordinate : employee.getSubordinates()) {
+                traverse(subordinate, depth + 1, maxDepth, violations);
+            }
         }
     }
 }
