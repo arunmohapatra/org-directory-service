@@ -24,4 +24,4 @@ You can find unit tests inside the src/test/java directory. These tests validate
 - Employee hierarchy parsing (EmployeeHierarchyParser)
 
 
-
+Note: Main is https://github.com/arunmohapatra/org-directory-service/blob/main/src/main/java/com/bigcompany/hierarchy/app/EmployeeHierarchyApp.java
