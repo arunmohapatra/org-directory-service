@@ -16,7 +16,13 @@ Maven project using Java 17. Use Maven commands directly (no wrapper present):
 - **Run single test**: `mvn test -Dtest=ClassName#methodName`
 - **Run main application**: `mvn exec:java -Dexec.mainClass="com.bigcompany.hierarchy.app.EmployeeHierarchyApp"`
 
-Note: The application expects `employees.csv` in the project root directory (currently hardcoded path in EmployeeHierarchyApp.java:24).
+Note: The application expects `employees.csv` in the project root directory. The file path is currently hardcoded in EmployeeHierarchyApp (absolute Windows path). The CSV must follow this format:
+```
+Id,firstName,lastName,salary,managerId
+123,Joe,Doe,60000,
+124,Martin,Chekov,45000,123
+```
+Root employees (CEOs) have empty managerId field.
 
 ## Architecture
 
@@ -64,3 +70,14 @@ app/             - Application entry point (EmployeeHierarchyApp)
 - JUnit 5.11.0 for testing
 - Lombok 1.18.32 for reducing boilerplate
 - Java 17 language level
+
+## Testing
+
+Test directory structure exists at `src/test/java/` but currently contains only a placeholder test. Most domain logic (tree building, salary validation, depth checking) does not yet have test coverage.
+
+## Known Issues
+
+**HierarchyDepthChecker bug in EmployeeHierarchyApp**: The `findDeeplyNestedEmployees()` method returns a list of violations, but the main application creates an empty `violations` list that is never populated with the results. Line 61 should capture the return value:
+```java
+violations.addAll(hierarchyDepthChecker.findDeeplyNestedEmployees(employee, 4));
+```
