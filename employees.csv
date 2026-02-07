@@ -1,0 +1,17 @@
+Id,firstName,lastName,salary,managerId
+123,Joe,Doe,60000,
+124,Martin,Chekov,45000,123
+125,Bob,Ronstad,47000,123
+300,Alice,Hasacat,50000,124
+305,Brett,Hardleaf,34000,300
+126,Sarah,Johnson,42000,125
+127,David,Chen,44000,125
+128,Emily,Williams,39000,125
+301,Michael,Brown,48000,124
+302,Jennifer,Davis,46000,124
+306,Kevin,Martinez,32000,300
+400,Lisa,Anderson,30000,305
+401,James,Wilson,31000,305
+402,Patricia,Moore,29000,305
+500,Robert,Taylor,28000,400
+501,Maria,Garcia,27000,400
