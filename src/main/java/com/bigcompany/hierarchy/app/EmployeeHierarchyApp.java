@@ -58,7 +58,7 @@ public class EmployeeHierarchyApp {
         List<DepthViolation> violations =
                 new ArrayList<>();
         rootEmployee.forEach( employee -> {
-            hierarchyDepthChecker.findDeeplyNestedEmployees(employee, 4);
+            violations.addAll(hierarchyDepthChecker.findDeeplyNestedEmployees(employee, 4));
         });
 
         for (DepthViolation violation : violations) {
