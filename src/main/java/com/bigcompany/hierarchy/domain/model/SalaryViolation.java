@@ -13,7 +13,7 @@ public class SalaryViolation {
     private double deviation;
 
     public String toString() {
-        return String.format("%s %s] as manager earns [%.2f] away from allowed range [%.2f–%.2f",
+        return String.format("[%s %s] as manager earns [%.2f] away from allowed range [%.2f–%.2f]",
                 manager.getFirstName(), manager.getLastName(),
                 deviation,
                 avgSubordinateSalary * 1.20,

@@ -49,7 +49,7 @@ public class EmployeeHierarchyApp {
         });
 
         employeesViolatingSalary.forEach(empSalaryViolation->{
-            System.out.println(employeesViolatingSalary.toString());
+            System.out.println(empSalaryViolation);
         });
 
         // Check the depth of reporting hierachy
